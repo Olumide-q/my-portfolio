@@ -1,10 +1,11 @@
 import React from 'react'
+import about from '../assets/images/About Me.png'
 
 const About = () => {
   return (
     <div className='bg-white px-10 py-27 flex flex-col lg:flex-row  items-center gap-18 mx-auto'>
       <div className=''>
-         <img src="/src/assets/images/About Me.png" alt="" />
+         <img src={about} alt="" />
       </div>
       <div className='flex flex-col gap-4 '>
       <div className='flex flex-col gap-2'>
